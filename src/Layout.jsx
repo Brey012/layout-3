@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 import "./css/Maquietacion.css";
 
-const Maquetacion = () => {
+const Layout = () => {
   return (
     <div className="container">
       <Header />
@@ -11,4 +11,4 @@ const Maquetacion = () => {
   );
 };
 
-export default Maquetacion;
+export default Layout;
